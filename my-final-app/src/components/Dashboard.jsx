@@ -210,7 +210,7 @@ const Dashboard = () => {
         {/* RIGHT COLUMN: DETAILS OR SEARCH */}
         <div>
           {selectedTeamPokemon ? (
-            <div style={{ border: '1px solid #ccc', padding: '15px', marginTop: '20px', backgroundColor: '#808080' }}>
+            <div style={{ border: '1px solid #ccc', padding: '15px', marginTop: '20px', backgroundColor: '#36454F' }}>
               <button 
                 onClick={() => setSelectedTeamPokemon(null)} 
                 style={{ float: 'right', cursor: 'pointer', border: 'none', background: 'transparent', fontWeight: 'bold' }}
